@@ -1,4 +1,4 @@
-# Clinical Trials Table Web Application Documentation
+# Clinical Trials Documentation
 
 ## Project Overview
 The goal of this project is to create a web-based interface for querying and displaying clinical trial data retrieved from the ClinicalTrials.gov API. The application will support search and filtering functionalities to allow users to customize their results and meet their specific needs. The interface will be user-friendly, responsive, and equipped with features like pagination and data export.
