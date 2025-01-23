@@ -30,16 +30,20 @@ The goal of this project is to create a web-based interface for querying and dis
 #### **Filter Implementation**:
 - Allow filtering by:
   - **Study Title**: Match keywords in trial titles.
-  - **NCT ID**: Search by specific trial identifiers.
+  - **Age**: Search by various age groups.
   - **Status**: Filter by trial status (e.g., "Recruiting," "Completed").
   - **Intervention**: Search by intervention type.
-  - **Sponsor**: Filter by trial sponsor.
-  - **Year Range**: Include trials conducted within a specified range of years.
+  - **Phase**: Filter by various phases.
+  - **Sex**: Filter by genders.
+  - **Study Type**: Filter based on study types.
+  
 
 #### **User Interface Design**:
+- Created a landing page with search component and search by 6 popular diseases.
+- Toggle theme between light mode and dark mode.
 - Create a responsive table with columns for study title, NCT ID, status, intervention, sponsor, and study dates.
 - Include sorting and pagination.
-- Add an export button for CSV downloads.
+
 
 #### **Search Optimization**:
 - Support synonyms and related terms for broader and more accurate search results.
@@ -76,7 +80,7 @@ The goal of this project is to create a web-based interface for querying and dis
 
 #### **Libraries**:
 - Fetch API for HTTP requests.
-- React Table for rendering tabular data.
+- Tan-stack Table for rendering tabular data.
 
 ### Component Structure
 
@@ -122,20 +126,10 @@ The goal of this project is to create a web-based interface for querying and dis
 
 ## Deployment Guide
 
-### Hosting Options
-
-- **Frontend**: Deploy on platforms like Vercel, Netlify, or AWS Amplify.
-- **Backend (if any)**: Use AWS Lambda, Google Cloud Functions, or Heroku.
-
-### Environment Variables
-- Define API base URLs and keys (if required) in `.env` files.
-
 ### Build Commands
 - For React: `npm run build`
 - For Next.js: `npm run build` (includes server-side rendering).
 
-### Monitoring
-- Use tools like Sentry for error tracking and Google Analytics for usage statistics.
 
 ---
 
@@ -189,19 +183,9 @@ The goal of this project is to create a web-based interface for querying and dis
 ## Exit Criteria
 
 - Users can search for clinical trials by disease or condition.
-- Filters (status, year range, sponsor, interventions) work as intended.
+- Filters (status, age, sex, phases, study type, interventions) work as intended.
 - Results are displayed in a responsive, sortable, and paginated table.
-- Export functionality allows downloading results as CSV.
-- Application passes functional and usability tests.
 
----
-
-## Next Steps
-
-1. **Review**: Share this document with SMEs for feedback.
-2. **Implementation**: Begin development based on this detailed plan.
-3. **Testing**: Perform unit, integration, and user acceptance testing.
-4. **Deployment**: Deploy the application to the chosen hosting platform.
 
 ---
 
