@@ -166,7 +166,7 @@ The goal of this project is to create a web-based interface for querying and dis
 
 ### Varun:
 
-* Designed and implemented the UI using React and styled-components.
+* Designed and implemented the UI using React and styled the components.
 
 * Developed core components such as the SearchBar and ToggleButton.
 
